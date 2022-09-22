@@ -1,1 +1,7 @@
-
+*{
+    background-color: #000000;
+    color: white;
+}
+#botton img{
+    width: 100px;
+}
