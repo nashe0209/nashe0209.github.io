@@ -1,6 +1,106 @@
 *{
-    background-color:#8C6C5A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px;
+    padding: 0;
 }
-#botton img{
-    width: 100px;
+
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-94.jpg?w=2000);
+}
+
+header {
+    background-color: #8C6C5A;
+    margin-right: 0px;
+}
+header h1 {
+    color: #302119;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;  
+    line-height: 1.7;
+    font-size: 110px;
+}
+
+nav { 
+    background-color:  #302119; 
+    font-size: 20px; 
+    padding: 0.4em;
+    margin-right: 0px;
+}
+nav p { 
+    display: inline; 
+}
+nav a:link, nav a:visited { 
+    text-decoration: none; 
+    color: #dbf5df; 
+    margin: 1em; 
+}
+nav a:hover, nav a:active { 
+    text-decoration: none; 
+    color: #bf9a89; 
+}
+
+section { 
+    width: 65%; 
+    background-color: #806759; 
+    float: left; 
+    margin-right: 0px;
+    
+}
+section h3 { 
+    text-align: center; 
+    color: #221912; 
+    line-height:1.3; 
+    font-size: 25px; 
+}
+
+p { 
+    color: #000000; 
+    line-height:1.5; 
+}
+#acercade { 
+    width: 30%;
+    background-color: #806759;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#acercade h5 {
+    text-align: center;
+    font-size: 25px;
+}
+#acercade img{
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+#foot{
+    background-color: #806759; 
+}
+footer h4 { 
+    text-align: center; 
+    font-size: 19px; 
+    padding: 0em; 
+    text-decoration-color: #201915;
+    float: left;
+    margin-top: 0px;
+ }
+ footer a {
+    float: right;
+    margin-top: 0px;
+    color: #5c3e35; 
+ }
+
+ #tema {
+    float: right;
+    position: fixed;
+    bottom: 30;
+    left: 0;
+    width: 0px;
+    margin: 0px;
+
+ }
+ #tema img {
+    width: 50px;
 }
