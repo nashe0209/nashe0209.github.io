@@ -104,3 +104,7 @@ footer h4 {
  #tema img {
     width: 50px;
 }
+a:link, a:visited { 
+    text-decoration: none; 
+    color: #23361a; 
+    margin: 1em; }
