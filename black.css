@@ -1,7 +1,105 @@
-*{
-    background-color: #000000;
-    color: white;
+body {
+    background-image: url(https://i.pinimg.com/originals/fb/41/26/fb4126f15d74dff43f0de89bdaf1b10e.jpg);
 }
-#botton img{
-    width: 100px;
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px;
+    padding: 0;
+}
+
+header {
+    background-color: #2e2727;
+    margin-right: 0px;
+}
+header h1 {
+    color: #fafafa;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;  
+    line-height: 1.7;
+    font-size: 110px;
+}
+
+nav { 
+    background-color:  #201c1c; 
+    font-size: 20px; 
+    padding: 0.4em;
+    margin-right: 0px;
+}
+nav p { 
+    display: inline; 
+}
+nav a:link, nav a:visited { 
+    text-decoration: none; 
+    color: #ffffff; 
+    margin: 1em; 
+}
+nav a:hover, nav a:active { 
+    text-decoration: none; 
+    color: #bebebe; 
+}
+
+section { 
+    width: 65%; 
+    background-color: #726d6a; 
+    float: left; 
+    margin-right: 0px;
+    
+}
+section h3 { 
+    text-align: center; 
+    color: #1a1715; 
+    line-height:1.3; 
+    font-size: 25px; 
+}
+
+p { 
+    color: #181616; 
+    line-height:1.5; 
+}
+#acercade { 
+    width: 30%;
+    background-color: #7a726d;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#acercade h5 {
+    text-align: center;
+    font-size: 25px;
+}
+#acercade img{
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+#foot{
+    background-color: #695d56; 
+}
+footer h4 { 
+    text-align: center; 
+    font-size: 19px; 
+    padding: 0em; 
+    text-decoration-color: #2b2624;
+    float: left;
+    margin-top: 0px;
+ }
+ footer a {
+    float: right;
+    margin-top: 0px;
+    color: #2e2724; 
+ }
+
+ #tema {
+    float: right;
+    position: fixed;
+    bottom: 30;
+    left: 0;
+    width: 0px;
+    margin: 0px;
+
+ }
+ #tema img {
+    width: 50px;
 }
