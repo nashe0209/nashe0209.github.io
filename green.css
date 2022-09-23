@@ -1,7 +1,106 @@
-
 *{
-    background-color: #46734D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px;
+    padding: 0;
 }
-#botton img{
-    width: 100px;
+
+body {
+    background-image: url(https://www.termometropolitico.it/newmedia/2018/09/bonus-verde.jpg);
+}
+
+header {
+    background-color: #67916d;
+    margin-right: 0px;
+}
+header h1 {
+    color: #112e15;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;  
+    line-height: 1.7;
+    font-size: 110px;
+}
+
+nav { 
+    background-color:  #112e15; 
+    font-size: 20px; 
+    padding: 0.4em;
+    margin-right: 0px;
+}
+nav p { 
+    display: inline; 
+}
+nav a:link, nav a:visited { 
+    text-decoration: none; 
+    color: #dbf5df; 
+    margin: 1em; 
+}
+nav a:hover, nav a:active { 
+    text-decoration: none; 
+    color: #89bf8d; 
+}
+
+section { 
+    width: 65%; 
+    background-color: #77a37d; 
+    float: left; 
+    margin-right: 0px;
+    
+}
+section h3 { 
+    text-align: center; 
+    color: #112e15; 
+    line-height:1.3; 
+    font-size: 25px; 
+}
+
+p { 
+    color: #000000; 
+    line-height:1.5; 
+}
+#acercade { 
+    width: 30%;
+    background-color: #77a37d;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#acercade h5 {
+    text-align: center;
+    font-size: 25px;
+}
+#acercade img{
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+#foot{
+    background-color: #77a37d; 
+}
+footer h4 { 
+    text-align: center; 
+    font-size: 19px; 
+    padding: 0em; 
+    text-decoration-color: #072011;
+    float: left;
+    margin-top: 0px;
+ }
+ footer a {
+    float: right;
+    margin-top: 0px;
+    color: #355c3b; 
+ }
+
+ #tema {
+    float: right;
+    position: fixed;
+    bottom: 30;
+    left: 0;
+    width: 0px;
+    margin: 0px;
+
+ }
+ #tema img {
+    width: 50px;
 }
